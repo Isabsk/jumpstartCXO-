@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <header style="background: #080808;top:0">
+           
+           
+        <div class="logo" data-aos="fade" data-aos-delay="800">
+            <h1>inkaleido.</h1>
+        </div>
+       
+            <label for="menu-control" class="hamburger" data-aos="fade" data-aos-delay="800">
+    <i class="hamburger__icon"></i>
+    <i style="width: 15px" class="hamburger__icon"></i>
+    <i class="hamburger__icon"></i>
+  </label>
+  
+  <input type="checkbox" id="menu-control" class="menu-control">
+  
+  <aside class="sidebar">
+    
+    <nav class="sidebar__menu">
+      <a href="">Home</a>
+      <a href="">About us</a>
+      <a href="">Services</a>
+      <a href="">Products</a>
+      <a href="">Contact</a>
+    </nav>
+    
+    <label for="menu-control" class="sidebar__close"></label>
+    
+    <ul class="sidebar__social">
+      <li>
+       <a href="">
+        <i class="bi bi-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="">
+         
+        <i class="bi bi-twitter"></i>
+        
+        </a>
+      </li>
+      <li>
+        <a href="">
+        <i class="bi bi-facebook"></i>
+        </a>
+      </li>
+    </ul>
+  </aside>
+  
+       
+    </header>
+     <h1 class="heading" style="margin:15vh 10vw 4vh 10vw">The individual service</h1>
+     <p class="lead" style="margin:1vh 10vw 2vh 10vw">"That which gets measured, gets analysed. That which gets analysed, gets acted upon"
+</p>
+    <section class="detail-service">
+        <div class="detail">
+            <p>Measuring performance is essential to achieve success. At Inkaleido Consulting, we provide performance measurement services that help businesses identify areas of strength and areas for improvement. Our service is designed to help businesses set measurable goals, track progress, and make data-driven decisions.
+</p>
+
+<br>
+   </div>
+        <div class="detail-list">
+            <ul>
+                
+<li> Key Performance Indicator (KPI) development: We work with businesses to identify the most critical performance indicators for their specific industry and create a set of metrics that will be used to measure performance.
+</li>
+<li>
+     Data Collection and Analysis: We collect and analyze data from various sources such as financial reports, customer feedback, and employee surveys to measure performance.
+
+</li>
+<li>
+     Reporting and Dashboards: We provide businesses with clear and actionable reports and dashboards that present the performance data in an easy-to-understand format.
+
+</li>
+<li>
+     Benchmarking: We compare a business's performance against industry averages or best practices to identify areas of improvement.
+
+</li>
+
+            </ul>
+        </div>
+        <br>
+        <p>Our team of experienced consultants has a wealth of knowledge and expertise in various industries, including manufacturing, healthcare, finance, and more. We use a data-driven approach to identify opportunities for improvement and develop customized solutions that drive results.
+</p>
+     
+    </section>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
+<script> 
+    AOS.init({
+    duration: 700,
+    }); 
+</script>
+</body>
+</html>

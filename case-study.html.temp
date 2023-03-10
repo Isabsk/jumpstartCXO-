@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+           
+           
+        <div class="logo" data-aos="fade" data-aos-delay="800">
+            <h1>inkaleido.</h1>
+        </div>
+       
+            <label for="menu-control" class="hamburger" data-aos="fade" data-aos-delay="800">
+    <i class="hamburger__icon"></i>
+    <i style="width: 15px" class="hamburger__icon"></i>
+    <i class="hamburger__icon"></i>
+  </label>
+  
+  <input type="checkbox" id="menu-control" class="menu-control">
+  
+  <aside class="sidebar">
+    
+    <nav class="sidebar__menu">
+      <a href="">Home</a>
+      <a href="">About us</a>
+      <a href="">Services</a>
+      <a href="">Products</a>
+      <a href="">Contact</a>
+    </nav>
+    
+    <label for="menu-control" class="sidebar__close"></label>
+    
+    <ul class="sidebar__social">
+      <li>
+       <a href="">
+        <i class="bi bi-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="">
+         
+        <i class="bi bi-twitter"></i>
+        
+        </a>
+      </li>
+      <li>
+        <a href="">
+        <i class="bi bi-facebook"></i>
+        </a>
+      </li>
+    </ul>
+  </aside>
+  
+       
+    </header>
+    
+    
+    <main>
+        <section class="main-content">
+            <div class="img-case">
+                <img data-aos="fade" src="../img/6.jpg" alt=""></img>
+            </div>
+            
+            <div class="start-con" data-aos="fade">
+                
+                <br>
+            <h1 class="heading" style="max-width: 1000px;margin: auto;margin-bottom: 20px;">Margin Expansion through cost optimisation</h1>
+            
+            
+            </div>
+            
+            <div class="real-con">
+                <span class="tag" style="width: 200px;">Profitability Improvement</span> <span class="tag" style="width: 160px;">Food and Beverage</span>
+                <br>
+                <br>
+                <br>
+                <p class="lead drop-cap">
+                    
+                       The client, a small catering business, was struggling to maintain profitability due to
+rising costs and stagnant sales. They reached out to our consulting firm for help in
+improving their profitability.
+                        </p>
+
+                        <p>
+                        We began by conducting a thorough assessment of their operations, including
+financial analysis and a review of their pricing strategy. We identified several areas
+for improvement, including inefficiencies in their food and labor costs, and a lack of a
+clear pricing strategy.
+                        </p>
+                        <p>
+                        Our team worked closely with the owners and employees of the client to develop a
+comprehensive plan for improvement. We implemented a new inventory
+management system to better control food costs, and helped them negotiate better
+deals with suppliers. We also helped them develop a more robust pricing tool that
+took into account market trends and competition.
+                        </p>
+                        <p>
+                            In addition, we provided training to the employees on cost-saving techniques and
+efficient ways of working.
+                        </p>
+                        <p>
+                            The results were impressive. The client was able to reduce food and labor costs by
+20% and increase sales by 15% within the first 6 months of implementing the
+changes. They were able to reinvest these savings into their business, allowing them
+to expand their menu and improve their customer service.
+                        </p>
+
+                    <section class="contact">
+        <h1 class="heading" data-aos="fade-up">Let's talk</h1>
+        <br>
+        <p data-aos="fade-up">epicuri natoque velit nunc sociosqu proin. instructior lectus perti ifend ridiculus perpetua sonet adolescens lectus sonet mazim facilisis vix veri quod nisl dicit viverra sapientem posuere.</p>
+        <div class="form" data-aos="fade-up">
+            <form>
+            <div class="form-left">
+             <i class="bi bi-person-circle" style="font-size: 20px"></i><input class="form-input" placeholder="Your Name" name="name" type="text"><br>
+                <i class="bi bi-envelope-fill" style="font-size: 20px"></i><input class="form-input" placeholder="Your Email" name="email"  type="email"><br>
+                <i class="bi bi-phone-fill" style="font-size: 20px"></i></i><input class="form-input" placeholder="Your Phone Number" name="phone" type="text"><br>
+            </div>
+            <div class="form-right">
+                <i class="bi bi-chat-square-text-fill" style="font-size: 20px; position: absolute;margin-top: 10px"></i><textarea class="form-textarea" name="message" placeholder="Tell us about your project"></textarea><br>
+                <button type="submit" class="form-button">Send <i class="bi bi-arrow-right" style="font-size: 20px"></i></button>
+            </div>
+            </form>
+        </div>
+    </section>
+    </main>    
+					
+					<a href="#">Faq</a>
+					
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Company Name © 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1.555.555.5555</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a style="color: #fff" href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="bi bi-facebook"></i></a>
+					<a href="#"><i class="bi bi-twitter"></i></a>
+					<a href="#"><i class="bi bi-linkedin"></i></a>
+					<a href="#"><i class="bi bi-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+
+<script> 
+    AOS.init({
+    duration: 700,
+    }); 
+</script>
+</body>
+</html>
